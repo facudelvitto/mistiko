@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #DDDDDD;
+  color: white;
+  font-size: 18px;
+  font-family: Courier, monospace;
+  font-weight: bold;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: green;
+  font-weight: bold;
+  font-size: 32;
+}
+
+h2 {
+  color: #80003b;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+}
+
+#perfil {
+  background-color: gray;
+  margin: 20px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+#intereses {
+  background-color: white;
+  margin: 20px;
+  padding: 30px 10px;
+  color: black;
+  font-weight: lighter;
+}
+
+#contacto {
+  background-color: gray;
+  margin: 20px;
+  padding: 30px 10px;
+  color: white;
+  font-weight: lighter;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
